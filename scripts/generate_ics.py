@@ -27,7 +27,7 @@ def _create_event(event_name, start, end):
     event.add("DTSTAMP", start)
 
     # UID保证唯一
-    event["UID"] = f"{start}/{end}/NateScarlet/holiday-cn"
+    event["UID"] = f"{start}/{end}/ruJC4PxMTqm/holiday-cn"
 
     return event
 
@@ -79,7 +79,7 @@ def generate_ics(days: Sequence[dict], filename: Text) -> None:
 
         name = fr["name"] + "(休)"
         if not fr["isOffDay"]:
-            name = name+"(班)"
+            name = name + "(班)"
         cal.add_component(_create_event(name, start, end))
 
     with open(filename, "wb") as f:
