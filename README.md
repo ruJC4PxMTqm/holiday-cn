@@ -1,10 +1,10 @@
 # holiday-cn
 
-[![Build Status](https://github.com/NateScarlet/holiday-cn/workflows/CI/badge.svg)](https://github.com/NateScarlet/holiday-cn/actions)
-[![Release](https://img.shields.io/github/release/NateScarlet/holiday-cn.svg)](https://github.com/NateScarlet/holiday-cn/releases/latest)
+[![Build Status](https://github.com/ruJC4PxMTqm/holiday-cn/workflows/CI/badge.svg)](https://github.com/ruJC4PxMTqm/holiday-cn/actions)
+[![Release](https://img.shields.io/github/release/ruJC4PxMTqm/holiday-cn.svg)](https://github.com/ruJC4PxMTqm/holiday-cn/releases/latest)
 [![CalVer](https://img.shields.io/badge/calver-YYYY.0M.0D-22bfda.svg)](http://calver.org)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c8e9d9c51bd2d858c577/maintainability)](https://codeclimate.com/github/NateScarlet/holiday-cn/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c8e9d9c51bd2d858c577/test_coverage)](https://codeclimate.com/github/NateScarlet/holiday-cn/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c8e9d9c51bd2d858c577/maintainability)](https://codeclimate.com/github/ruJC4PxMTqm/holiday-cn/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c8e9d9c51bd2d858c577/test_coverage)](https://codeclimate.com/github/ruJC4PxMTqm/holiday-cn/test_coverage)
 ![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)
 
 中国法定节假日数据 自动每日抓取国务院公告
@@ -45,19 +45,19 @@ interface Holidays {
 
 数据地址格式:
 
-`https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{年份}.json`
+`https://raw.githubusercontent.com/ruJC4PxMTqm/holiday-cn/master/{年份}.json`
 
 或使用 JSDelivr：
 
-`https://cdn.jsdelivr.net/gh/NateScarlet/holiday-cn@master/{年份}.json`
+`https://cdn.jsdelivr.net/gh/ruJC4PxMTqm/holiday-cn@master/{年份}.json`
 
 也可尝试使用 [ghproxy](https://github.com/hunshcn/gh-proxy) 或其他 Github 加速：
 
-`https://ghproxy.com/https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{年份}.json`
+`https://ghproxy.com/https://raw.githubusercontent.com/ruJC4PxMTqm/holiday-cn/master/{年份}.json`
 
 ~~访问 github 不方便时可使用国内镜像仓库~~ 2022-08-05: coding 现在要求登录才能下载开源仓库的文件。
 
-~~`https://natescarlet.coding.net/p/github/d/holiday-cn/git/raw/master/{年份}.json`~~
+~~`https://ruJC4PxMTqm.coding.net/p/github/d/holiday-cn/git/raw/master/{年份}.json`~~
 
 ## ICalendar 订阅
 
@@ -73,4 +73,4 @@ interface Holidays {
 
 参见 [Git 工具 - 子模块](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97)
 
-[发布页面]: https://github.com/NateScarlet/holiday-cn/releases
+[发布页面]: https://github.com/ruJC4PxMTqm/holiday-cn/releases
