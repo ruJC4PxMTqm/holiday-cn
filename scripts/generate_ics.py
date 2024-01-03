@@ -80,7 +80,7 @@ def generate_ics(days: Sequence[dict], filename: Text) -> None:
         if fr["isOffDay"]:
             name = fr["name"] + "(休)"
         else:
-            name = name + "(班)"
+            name = fr["name"] + "(班)"
         cal.add_component(_create_event(name, start, end))
 
     with open(filename, "wb") as f:
